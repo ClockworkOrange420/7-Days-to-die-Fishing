@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blocks>
+	<block id="955" name="Livewell">
+		<property name="Material" value="organic"/>
+		<property name="MaxDamage" value="5"/>
+		<property name="StabilitySupport" value="false"/>
+		<!-- build restriction -->
+		<property name="Shape" value="Ext3dModel"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="LootContainers/cooler" param1="main_mesh"/>
+		<property class="RepairItems">
+			<property name="scrapPlastics" value="10"/>
+		</property>
+		<drop event="Harvest" name="Raw Fish" count="1" prob="0.25" tool_category="Fishing"/>
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
+		<property name="DescriptionKey" value="furnitureGroupDesc"/>
+		<!-- disassemble value -->
+	</block>
+</blocks>
+<!-- Block limit: No block can have an ID greater 2047. -->
