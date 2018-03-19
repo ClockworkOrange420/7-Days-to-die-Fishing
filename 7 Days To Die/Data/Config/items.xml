@@ -9484,7 +9484,7 @@ Mesh files no longer used:
 	<property name="Material" value="clay"/>
 	<property name="CreativeMode" value="None" />
 </item>
-
+<!--Modded-->
 	<item id="1625" name="Fishing Rod">
 		<property name="Meshfile" value="Items/Tools/stone_shovelPrefab"/>
 		<property name="Material" value="Mplastics"/>
