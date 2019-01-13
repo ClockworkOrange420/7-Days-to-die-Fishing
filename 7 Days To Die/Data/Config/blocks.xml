@@ -25317,8 +25317,6 @@ ore block visualisation end -->
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/LootContainers/coolerPrefab"/>
-	<property name="DisplayType" value="blockMulti" />
-	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<drop event="Harvest" name="Raw Fish" count="1" prob="0.25" tool_category="Fishing"/>
